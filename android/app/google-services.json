@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "740194893720",
+    "firebase_url": "https://link-89e68.firebaseio.com",
+    "project_id": "link-89e68",
+    "storage_bucket": "link-89e68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740194893720:android:ee6d8bb46b21394e",
+        "android_client_info": {
+          "package_name": "com.almahra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740194893720-ljoqu0kcgccf6v1317fp93bsa3vrd0d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADMCz4fFJjLWk07_CjOyCz8sJqwpYLhzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
