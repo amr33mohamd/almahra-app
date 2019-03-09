@@ -18,13 +18,12 @@
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1D0FED83F372BD6FDE9AEF79 /* libPods-Almahra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B44CB51F4E569EF92AF54033 /* libPods-Almahra.a */; };
+		291CAA382233E84F0032CD95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291CAA372233E84F0032CD95 /* Images.xcassets */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */; };
@@ -58,21 +57,6 @@
 		75A085C1212DE16D00CAC53D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A085BF212DE16D00CAC53D /* GoogleService-Info.plist */; };
 		75A085C2212DE16D00CAC53D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A085BF212DE16D00CAC53D /* GoogleService-Info.plist */; };
 		75A085C3212DE16D00CAC53D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A085BF212DE16D00CAC53D /* GoogleService-Info.plist */; };
-		75E078DE212F6A7D003096D2 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078CC212F6A77003096D2 /* Icon-App-83.5x83.5@2x.png */; };
-		75E078DF212F6A7D003096D2 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078CD212F6A78003096D2 /* Icon-App-40x40@2x.png */; };
-		75E078E1212F6A7D003096D2 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078CF212F6A78003096D2 /* Icon-App-76x76@1x.png */; };
-		75E078E2212F6A7D003096D2 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D0212F6A79003096D2 /* Icon-App-40x40@3x.png */; };
-		75E078E3212F6A7D003096D2 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D1212F6A79003096D2 /* Icon-App-20x20@1x.png */; };
-		75E078E4212F6A7D003096D2 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D2212F6A79003096D2 /* ItunesArtwork@2x.png */; };
-		75E078E5212F6A7D003096D2 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D3212F6A79003096D2 /* Icon-App-20x20@3x.png */; };
-		75E078E6212F6A7D003096D2 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D4212F6A7A003096D2 /* Icon-App-29x29@1x.png */; };
-		75E078E7212F6A7D003096D2 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D5212F6A7A003096D2 /* Icon-App-29x29@3x.png */; };
-		75E078E8212F6A7D003096D2 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D6212F6A7A003096D2 /* Icon-App-76x76@2x.png */; };
-		75E078EA212F6A7D003096D2 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D8212F6A7B003096D2 /* Icon-App-40x40@1x.png */; };
-		75E078EB212F6A7D003096D2 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078D9212F6A7B003096D2 /* Icon-App-60x60@3x.png */; };
-		75E078EC212F6A7D003096D2 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078DA212F6A7C003096D2 /* Icon-App-20x20@2x.png */; };
-		75E078EE212F6A7D003096D2 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078DC212F6A7C003096D2 /* Icon-App-29x29@2x.png */; };
-		75E078EF212F6A7D003096D2 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E078DD212F6A7D003096D2 /* Icon-App-60x60@2x.png */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B8B559D774D245BA931E5139 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC835720ECC453882EF0E72 /* libRNFirebase.a */; };
@@ -392,10 +376,10 @@
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Almahra/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Almahra/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Almahra/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Almahra/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Almahra/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		291CAA372233E84F0032CD95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../../Downloads/Talbatk-master/ios/Talbatk/Images.xcassets"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Almahra-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Almahra-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Almahra-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Almahra-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -422,21 +406,6 @@
 		7554FE9C212E0024007DFAC8 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		7571725F212F179200F7F64D /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DroidKufi-Regular.ttf"; path = "../assets/fonts/DroidKufi-Regular.ttf"; sourceTree = "<group>"; };
 		75A085BF212DE16D00CAC53D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Almahra/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		75E078CC212F6A77003096D2 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-83.5x83.5@2x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
-		75E078CD212F6A78003096D2 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@2x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
-		75E078CF212F6A78003096D2 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@1x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
-		75E078D0212F6A79003096D2 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@3x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
-		75E078D1212F6A79003096D2 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@1x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
-		75E078D2212F6A79003096D2 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ItunesArtwork@2x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png"; sourceTree = "<group>"; };
-		75E078D3212F6A79003096D2 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@3x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
-		75E078D4212F6A7A003096D2 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@1x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
-		75E078D5212F6A7A003096D2 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@3x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
-		75E078D6212F6A7A003096D2 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@2x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
-		75E078D8212F6A7B003096D2 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@1x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
-		75E078D9212F6A7B003096D2 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@3x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
-		75E078DA212F6A7C003096D2 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@2x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
-		75E078DC212F6A7C003096D2 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
-		75E078DD212F6A7D003096D2 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@2x.png"; path = "Almahra/Images.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
 		78BA4640A2446670DB8A24F7 /* Pods-Almahra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Almahra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Almahra/Pods-Almahra.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -591,9 +560,9 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				291CAA372233E84F0032CD95 /* Images.xcassets */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				75A085BF212DE16D00CAC53D /* GoogleService-Info.plist */,
 			);
@@ -750,21 +719,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				75E078D1212F6A79003096D2 /* Icon-App-20x20@1x.png */,
-				75E078DA212F6A7C003096D2 /* Icon-App-20x20@2x.png */,
-				75E078D3212F6A79003096D2 /* Icon-App-20x20@3x.png */,
-				75E078D4212F6A7A003096D2 /* Icon-App-29x29@1x.png */,
-				75E078DC212F6A7C003096D2 /* Icon-App-29x29@2x.png */,
-				75E078D5212F6A7A003096D2 /* Icon-App-29x29@3x.png */,
-				75E078D8212F6A7B003096D2 /* Icon-App-40x40@1x.png */,
-				75E078CD212F6A78003096D2 /* Icon-App-40x40@2x.png */,
-				75E078D0212F6A79003096D2 /* Icon-App-40x40@3x.png */,
-				75E078DD212F6A7D003096D2 /* Icon-App-60x60@2x.png */,
-				75E078D9212F6A7B003096D2 /* Icon-App-60x60@3x.png */,
-				75E078CF212F6A78003096D2 /* Icon-App-76x76@1x.png */,
-				75E078D6212F6A7A003096D2 /* Icon-App-76x76@2x.png */,
-				75E078CC212F6A77003096D2 /* Icon-App-83.5x83.5@2x.png */,
-				75E078D2212F6A79003096D2 /* ItunesArtwork@2x.png */,
 				7571725F212F179200F7F64D /* DroidKufi-Regular.ttf */,
 				7554FE8E212E0024007DFAC8 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Almahra */,
@@ -891,8 +845,8 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 3NGGT5P4S8;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 973K5Y53GU;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1292,7 +1246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				75717260212F179200F7F64D /* DroidKufi-Regular.ttf in Resources */,
 				7554FEA1212E0024007DFAC8 /* FontAwesome5_Brands.ttf in Resources */,
 				7554FEA5212E0024007DFAC8 /* Ionicons.ttf in Resources */,
@@ -1302,6 +1255,7 @@
 				7554FEA7212E0024007DFAC8 /* MaterialIcons.ttf in Resources */,
 				7554FEA4212E0024007DFAC8 /* Foundation.ttf in Resources */,
 				7554FEA3212E0024007DFAC8 /* FontAwesome5_Solid.ttf in Resources */,
+				291CAA382233E84F0032CD95 /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				7554FEA8212E0024007DFAC8 /* Octicons.ttf in Resources */,
 				7554FEA2212E0024007DFAC8 /* FontAwesome5_Regular.ttf in Resources */,
@@ -1310,21 +1264,6 @@
 				7554FE9E212E0024007DFAC8 /* EvilIcons.ttf in Resources */,
 				7554FEAA212E0024007DFAC8 /* Zocial.ttf in Resources */,
 				75A085C0212DE16D00CAC53D /* GoogleService-Info.plist in Resources */,
-				75E078DE212F6A7D003096D2 /* Icon-App-83.5x83.5@2x.png in Resources */,
-				75E078DF212F6A7D003096D2 /* Icon-App-40x40@2x.png in Resources */,
-				75E078E1212F6A7D003096D2 /* Icon-App-76x76@1x.png in Resources */,
-				75E078E2212F6A7D003096D2 /* Icon-App-40x40@3x.png in Resources */,
-				75E078E3212F6A7D003096D2 /* Icon-App-20x20@1x.png in Resources */,
-				75E078E4212F6A7D003096D2 /* ItunesArtwork@2x.png in Resources */,
-				75E078E5212F6A7D003096D2 /* Icon-App-20x20@3x.png in Resources */,
-				75E078E6212F6A7D003096D2 /* Icon-App-29x29@1x.png in Resources */,
-				75E078E7212F6A7D003096D2 /* Icon-App-29x29@3x.png in Resources */,
-				75E078E8212F6A7D003096D2 /* Icon-App-76x76@2x.png in Resources */,
-				75E078EA212F6A7D003096D2 /* Icon-App-40x40@1x.png in Resources */,
-				75E078EB212F6A7D003096D2 /* Icon-App-60x60@3x.png in Resources */,
-				75E078EC212F6A7D003096D2 /* Icon-App-20x20@2x.png in Resources */,
-				75E078EE212F6A7D003096D2 /* Icon-App-29x29@2x.png in Resources */,
-				75E078EF212F6A7D003096D2 /* Icon-App-60x60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1332,7 +1271,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
 				75A085C2212DE16D00CAC53D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1537,10 +1475,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Almahra/Almahra.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 3NGGT5P4S8;
+				DEVELOPMENT_TEAM = 973K5Y53GU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1552,10 +1490,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tazawaq.tazawaqapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almahra;
 				PRODUCT_NAME = Almahra;
-				PROVISIONING_PROFILE = "9b9ef9f7-0a3d-48f0-aa50-ee036b51c209";
-				PROVISIONING_PROFILE_SPECIFIER = "Am's mac";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[arch=*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1567,10 +1506,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Almahra/Almahra.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3NGGT5P4S8;
+				DEVELOPMENT_TEAM = 973K5Y53GU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1582,10 +1521,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tazawaq.tazawaqapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almahra;
 				PRODUCT_NAME = Almahra;
-				PROVISIONING_PROFILE = "d390285b-b518-4458-a7cd-6a9286706508";
-				PROVISIONING_PROFILE_SPECIFIER = "com.tazawaq.tazawaqapp AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
