@@ -233,31 +233,31 @@ export default class LocationSetting extends React.Component {
 									error.code === 'E_LOCATION_SERVICES_DISABLED' ||
 									error.code === undefined
 								) {
-									// this.props.navigation.navigate('Main');
-
-									Alert.alert(
-										'خدمة الموقع',
-										'من فضلك قم بتفعيل خدمة الموقع على جوالك لاستخدام افضل. بعد التفعيل اعد المحاولة',
-										[
-											{
-												text: 'اعد المحاولة',
-												onPress: () => this.loadScreen()
-											},
-											{
-												text: 'الغاء',
-												onPress: () => {
-													this.setState({
-														display: 1,
-														fetchedLocationData: true
-													})
-													this.props.navigation.navigate('Main');
-
-												},
-												style: 'cancel'
-											}
-										],
-										{ cancelable: false }
-									);
+									 this.props.navigation.navigate('Main');
+                                    //
+									// Alert.alert(
+									// 	'خدمة الموقع',
+									// 	'من فضلك قم بتفعيل خدمة الموقع على جوالك لاستخدام افضل. بعد التفعيل اعد المحاولة',
+									// 	[
+									// 		{
+									// 			text: 'اعد المحاولة',
+									// 			onPress: () => this.loadScreen()
+									// 		},
+									// 		{
+									// 			text: 'الغاء',
+									// 			onPress: () => {
+									// 				this.setState({
+									// 					display: 1,
+									// 					fetchedLocationData: true
+									// 				})
+									// 				this.props.navigation.navigate('Main');
+                                    //
+									// 			},
+									// 			style: 'cancel'
+									// 		}
+									// 	],
+									// 	{ cancelable: false }
+									// );
 								} else{
 									this.props.navigation.navigate('Main');
 								}
