@@ -175,14 +175,15 @@ export default class SingleProduct extends React.Component {
 				this.setState({
 					childs: meals.childs,
 				});
+				// alert(JSON.stringify())
 			});
 	}
 	handlePrice = () => {
 		if (this.state.price != 0) {
-			return Math.round((this.state.num * this.state.price) * 100) / 100
+			return Math.round(this.state.num * this.state.price)
 
 		} else {
-			return Math.round((this.state.num * this.state.Meal[0].price) * 100) / 100
+			return Math.round(this.state.num * this.state.Meal[0].price) 
 		}
 	}
 	render() {
@@ -258,8 +259,7 @@ export default class SingleProduct extends React.Component {
                                         <Caption style={{color:Colors.mainColor,fontFamily:'Droid Arabic Kufi'}}>معلومات</Caption>
                                     </Divider>
 								<Text style={{textAlign:'center',fontFamily:'Droid Arabic Kufi',padding:20,borderWidth:.5,borderRadius:10,margin:10}}>
-                                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+								{this.state.Meal[0].desc}
 								</Text>
 								</View>
 
@@ -339,7 +339,7 @@ export default class SingleProduct extends React.Component {
 									borderRadius={15}
 									buttonStyle={{ padding: 10 }}
 									textStyle={{ fontFamily: 'Droid Arabic Kufi', fontSize: 15 }}
-									title={"اضف الى السله " + this.handlePrice() + " ريال سعودي"}
+									title={"اضف الى السله " + this.handlePrice() + "$"}
 								/>
 							</View>
 						)}

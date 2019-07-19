@@ -54,6 +54,7 @@ desc: "جاري تحميل .."
 				doneFetches: 1,
 				Meals: meals.response
 			})
+			alert(JSON.stringify(this.state.Meals))
 
 		})
 		// fetch(Server.dest + '/api/store-info?store_id=' + this.props.navigation.state.params.restaurant_id).then((res) => res.json()).then((restaurants) => {

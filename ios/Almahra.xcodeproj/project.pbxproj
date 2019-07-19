@@ -26,7 +26,6 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		15A13A3472904907B4983010 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70A77776AA1C4E5A905421EE /* FontAwesome5_Solid.ttf */; };
-		1D0FED83F372BD6FDE9AEF79 /* libPods-Almahra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B44CB51F4E569EF92AF54033 /* libPods-Almahra.a */; };
 		291CAAB5223408530032CD95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291CAAB4223408530032CD95 /* Images.xcassets */; };
 		291CAACA223415A80032CD95 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 291CAAB6223415A50032CD95 /* Icon-App-60x60@3x.png */; };
 		291CAACB223415A80032CD95 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 291CAAB7223415A50032CD95 /* ItunesArtwork@2x.png */; };
@@ -96,6 +95,7 @@
 		8E6941043D2C4270B0B44688 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6303DC7739104E8EA6544BBE /* Rubik-Light.ttf */; };
 		8FBF49F6EBEB4055B8899758 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3F121B3610D47939F58C1A9 /* Ionicons.ttf */; };
 		9BA459D911564FB2A8876341 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A94A8AEA6CE4A028B0D5276 /* Rubik-Medium.ttf */; };
+		A32E438F72755CF7E5AB24A3 /* libPods-Almahra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D61768A9A7487AD1583102 /* libPods-Almahra.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B8B559D774D245BA931E5139 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC835720ECC453882EF0E72 /* libRNFirebase.a */; };
 		BA22603C8FD546BDA89F609E /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E95945BE4094D8D92322775 /* Foundation.ttf */; };
@@ -430,8 +430,8 @@
 		00E356EE1AD99517003FC87E /* AlmahraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlmahraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AlmahraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlmahraTests.m; sourceTree = "<group>"; };
-		029EA392E09F90420A73886F /* libPods-AlmahraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlmahraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AED7DE3B065465FA1233942 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		0FD1AB035034727B88FFAEAA /* Pods-Almahra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Almahra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Almahra/Pods-Almahra.debug.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Almahra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Almahra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -477,7 +477,6 @@
 		5F8A5DF130BA4229B100672F /* RCTRestart.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTRestart.xcodeproj; path = "../node_modules/react-native-restart/ios/RCTRestart.xcodeproj"; sourceTree = "<group>"; };
 		6303DC7739104E8EA6544BBE /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
 		65CD9F5DE5A542A7A7A10E57 /* libRNPhotoView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNPhotoView.a; sourceTree = "<group>"; };
-		6D2A2FCE3CB3795D1721BC61 /* Pods-Almahra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Almahra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Almahra/Pods-Almahra.debug.xcconfig"; sourceTree = "<group>"; };
 		70A77776AA1C4E5A905421EE /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		7554FE46212DF477007DFAC8 /* Almahra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Almahra.entitlements; path = Almahra/Almahra.entitlements; sourceTree = "<group>"; };
 		7554FE5C212DFC12007DFAC8 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
@@ -499,7 +498,6 @@
 		7571725F212F179200F7F64D /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DroidKufi-Regular.ttf"; path = "../assets/fonts/DroidKufi-Regular.ttf"; sourceTree = "<group>"; };
 		75A085BF212DE16D00CAC53D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Almahra/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		761BC9B4EAEC45388454AFBA /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/@shoutem/ui/fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
-		78BA4640A2446670DB8A24F7 /* Pods-Almahra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Almahra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Almahra/Pods-Almahra.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8531C16D3572470BA27C948B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
@@ -509,17 +507,16 @@
 		90EBFB501E1A46358DF9E240 /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
 		912A79FF1E144E91B3B827F6 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		949B7A7C28C747B89D1BD963 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		9621AA35CB6BC2E49330B5FF /* Pods-Almahra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Almahra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Almahra/Pods-Almahra.release.xcconfig"; sourceTree = "<group>"; };
 		99BD09C0E5C2447B995CDC1B /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AF1DDD1F8B9349F194274B83 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
 		B25C151C3A5A42D6ACD75DDF /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		B44CB51F4E569EF92AF54033 /* libPods-Almahra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Almahra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C3D7DDE1454A299A4464C3 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
 		B7F87F09687F403EB6483E1B /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
-		C2DF8B27BADDAADCFDE6BDD3 /* libPods-Almahra-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Almahra-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C49036FB60415EFB53F2BF07 /* libPods-Almahra-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Almahra-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71CD658A4D746AFB67F6775 /* libRCTRestart.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTRestart.a; sourceTree = "<group>"; };
 		CDDC39F543454FC2B33DD547 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		E2D61768A9A7487AD1583102 /* libPods-Almahra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Almahra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE96694AE0FE4C939A42A471 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../node_modules/@shoutem/ui/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
 		F3F121B3610D47939F58C1A9 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		FE42972DEEC24EB7B888E8A4 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
@@ -553,10 +550,10 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				1D0FED83F372BD6FDE9AEF79 /* libPods-Almahra.a in Frameworks */,
 				B8B559D774D245BA931E5139 /* libRNFirebase.a in Frameworks */,
 				347DAF097E154939939B8429 /* libRNPhotoView.a in Frameworks */,
 				8C044C9165A54D24AC778D61 /* libRCTRestart.a in Frameworks */,
+				A32E438F72755CF7E5AB24A3 /* libPods-Almahra.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,19 +721,16 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				B44CB51F4E569EF92AF54033 /* libPods-Almahra.a */,
-				C49036FB60415EFB53F2BF07 /* libPods-Almahra-tvOS.a */,
-				C2DF8B27BADDAADCFDE6BDD3 /* libPods-Almahra-tvOSTests.a */,
-				029EA392E09F90420A73886F /* libPods-AlmahraTests.a */,
+				E2D61768A9A7487AD1583102 /* libPods-Almahra.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4BACAD5AC0C92E593F720F65 /* Pods */ = {
+		56F084D116EBBFDF74B47B9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D2A2FCE3CB3795D1721BC61 /* Pods-Almahra.debug.xcconfig */,
-				78BA4640A2446670DB8A24F7 /* Pods-Almahra.release.xcconfig */,
+				0FD1AB035034727B88FFAEAA /* Pods-Almahra.debug.xcconfig */,
+				9621AA35CB6BC2E49330B5FF /* Pods-Almahra.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -878,9 +872,9 @@
 				00E356EF1AD99517003FC87E /* AlmahraTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				4BACAD5AC0C92E593F720F65 /* Pods */,
 				759F7216212DF00200CCEBB4 /* Recovered References */,
 				AE571727E74D4035B9FA3F33 /* Resources */,
+				56F084D116EBBFDF74B47B9E /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -964,12 +958,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Almahra" */;
 			buildPhases = (
-				241DA407537D3E20C161D417 /* [CP] Check Pods Manifest.lock */,
+				25D29696F9965BD253FA3CCF /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3743D931B9D577AAFC376906 /* [CP] Copy Pods Resources */,
+				05C050DA27971B30A5C59D7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1552,7 +1546,25 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		241DA407537D3E20C161D417 /* [CP] Check Pods Manifest.lock */ = {
+		05C050DA27971B30A5C59D7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Almahra/Pods-Almahra-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Almahra/Pods-Almahra-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25D29696F9965BD253FA3CCF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1583,24 +1595,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		3743D931B9D577AAFC376906 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Almahra/Pods-Almahra-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Almahra/Pods-Almahra-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1730,7 +1724,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D2A2FCE3CB3795D1721BC61 /* Pods-Almahra.debug.xcconfig */;
+			baseConfigurationReference = 0FD1AB035034727B88FFAEAA /* Pods-Almahra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Almahra/Almahra.entitlements;
@@ -1764,7 +1758,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78BA4640A2446670DB8A24F7 /* Pods-Almahra.release.xcconfig */;
+			baseConfigurationReference = 9621AA35CB6BC2E49330B5FF /* Pods-Almahra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Almahra/Almahra.entitlements;

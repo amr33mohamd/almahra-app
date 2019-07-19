@@ -61,17 +61,12 @@ export default class Meals extends React.Component {
 
 	CheckIfBannedThenOrder = () => {
 		if(this.state.ordering != true){
-			this.setState({
-				ordering:true
-			})
+
 			AsyncStorage.getItem('login').then(logged => {
 				if (logged == 1) {
 					AsyncStorage.getItem('userid').then((userid)=>{
 						if(userid){
-							fetch(Server.dest + '/api/is-user-banned?user_id=' + userid).
-								then((res) => res.json()).then((resJson) => {
-						            if(resJson.response == 0)
-									{
+
 										AsyncStorage.getItem('userid').then((userid)=>{
 										AsyncStorage.getItem('token').then(token => {
 											fetch(Server.dest + '/api/add-user-token?user_id='+userid+
@@ -97,13 +92,8 @@ export default class Meals extends React.Component {
 									// 	alert('لا يمكن تنفيذ طلبك إلا بعد وصول طلبك للحد الأدنى للطلب');
 									// }
 									})
-									}
-						            else
-						            {
-										alert('نعتذر و نقدر لك تعاونك ، و يؤسفنا حظر حسابك لعدة أسباب ، راجع إدارة التطبيق لإلغاء الحظر');
-									}
-								}
-								)
+
+
 								}
 						else {
 							alert('يجب عليك تسجيل الدخول اولا');
@@ -119,25 +109,41 @@ export default class Meals extends React.Component {
 
 	make_order = () => {
 		AsyncStorage.getItem('location').then((value) => {
+			AsyncStorage.getItem('userid').then((userid)=>{
+
 			if (value === null) {
 				this.props.navigation.navigate('LocationSetting');
 				RNRestart.Restart();
 
 			}
 			else {
+
+				if(userid == 5){
+						AsyncStorage.setItem('cart', '').then(() => {
+							AsyncStorage.setItem('CartResturantId','').then(()=>{
+							AsyncStorage.setItem('hot_request','1').then(()=>{
+								this.props.navigation.navigate('السله');
+								this.closeModal();
+							})
+						})
+						})
+				}
+				else{
 					AsyncStorage.getItem('userid').then((userid)=>{
 					AsyncStorage.getItem('location').then(location => {
 						AsyncStorage.getItem('hint').then(hint => {
-							fetch(
+							this.closeModal();
+
+							this.props.navigation.navigate('WebviewBuy',{url:
 								Server.dest +
-									'/api/make-order?ids=' +
+									'/api/buy-screen?ids=' +
 									this.state.ids +
 									'&store_id=' +
 									this.state.store_id +
 									'&user_id=' +
 									userid +
 									'&cost=' +
-									this.state.after_cost +
+									Math.round((this.state.after_cost-this.state.before_cost)*2.65*100) / 100 +
 									'&address=' +
 									location +
 									'&address_hint=' +
@@ -147,7 +153,7 @@ export default class Meals extends React.Component {
 									this.state.note
 									+'&discounted='+
 									this.state.discounted
-									, {headers: {'Cache-Control': 'no-cache'}})
+									})
 								.then(res => res.json())
 								.then(meals => {
 									AsyncStorage.setItem('cart', '').then(() => {
@@ -163,7 +169,10 @@ export default class Meals extends React.Component {
 					})
 				})
 			}
-		});
+
+			}
+	});
+});
 		}
 
 
@@ -326,17 +335,15 @@ clear_cart_no_alert = ()=>{
 						 alert('عملينا العزيز : السعر الإجمالي هو سعر تقريبي ، قد يكون هناك زيادة  في السعر و  سيعتمد على سعر الفاتورة من المحل التجاري')
 					 }}
 				 />
-					 <Text style={{textAlign:'center',paddingHorizontal:40,marginRight:15}}>{Math.round((this.state.after_cost-this.state.discounted)*100) / 100}</Text>
+					 <Text style={{textAlign:'center',paddingHorizontal:40,marginRight:15}}>{Math.round((this.state.after_cost-this.state.before_cost)*2.65*100) / 100}</Text>
 				 </View>
 		 );
 
 	render() {
 		const tableHead = ['السعر', 'التصنيف'];
 		const tableData = [
-			['' + Math.round((this.state.after_cost-this.state.before_cost)*100) / 100 , 'سعر الطلب'],
-			['' + this.state.before_cost, 'رسوم التوصيل'],
+			['' + Math.round(this.state.after_cost-this.state.before_cost) , 'سعر الطلب'],
 			// ['' + this.state.discounted, 'الخصم'],
-			[this.costicon(), 'السعر الاجمالى مع الضريبه']
 
 		];
 		const { params } = this.props.navigation.state;

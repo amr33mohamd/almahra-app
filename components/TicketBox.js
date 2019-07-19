@@ -115,7 +115,7 @@ export default class TicketBox extends Component {
 									fontSize: 12,
 									color: Colors.secondaryColor
 								}}>
-								السعر {this.props.count * this.props.price} رس /
+								السعر {this.props.count * this.props.price} دولار /
 						</Text>
 
 						</View>

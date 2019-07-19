@@ -10,6 +10,7 @@ ReactNative.I18nManager.allowRTL(false);
 alert(e);
 }
 console.disableYellowBox = true;
+SplashScreen.hide()
 
 // The following line is to temporarily hide a warning caused by
 // https://github.com/facebook/react-native/issues/18868
@@ -65,7 +66,9 @@ export default class App extends Component {
 				  }
 			  });
 	  }
-	  pushNotiListner = () => {
+    // $result .= "نوع الرحله : "."رحله كامله يوميه".PHP_EOL;
+
+    pushNotiListner = () => {
 		this.notificationListener = firebase.notifications().onNotification((notification: Notification) => {
 		  // Process your notification as required
 		  console.log('three')

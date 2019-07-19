@@ -43,11 +43,8 @@ public class MainApplication extends Application implements ReactApplication {
             new PhotoViewPackage(),
             new LinearGradientPackage(),
             new VectorIconsPackage(),
-          new RNFirebasePackage(),
           new RNFirebaseMessagingPackage(),
-          new RNFirebaseNotificationsPackage(),
-          new MapsPackage(),
-          new SplashScreenReactPackage()
+          new RNFirebaseNotificationsPackage()
       );
     }
 

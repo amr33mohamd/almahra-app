@@ -22,6 +22,7 @@ import ProductsScreen from '../screens/ProductsScreen';
 import SingleProduct from '../screens/SingleProduct';
 import {DrawerNav} from './DrawerNavigator';
 import SpecialOrderScreen from '../screens/SpecialOrderScreen';
+import WebviewBuy from '../screens/WebviewBuy';
 
 export default RootStackNavigator = createStackNavigator(
 	{
@@ -38,6 +39,7 @@ export default RootStackNavigator = createStackNavigator(
 		MealsScreen: { screen: MealsScreen },
 		SingleMeal: { screen: SingleMeal },
 		SingleOffer: { screen: SingleOffer },
+		WebviewBuy:{screen:WebviewBuy},
 		//SingleOrderScreen: { screen: SingleOrderScreen },
 		SingleTicketScreen: { screen: SingleTicketScreen },
 		MyTicketsScreen: { screen: MyTicketsScreen },

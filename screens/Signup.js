@@ -17,7 +17,14 @@ export default class Signup extends React.Component {
                     this.setState({ location: value });
             });
     }
+		navigateToHome = () => {
+			this.props.navigation.navigate('Main')
+		};
 
+		setLoginStatus = value => {
+			AsyncStorage.setItem('login', value);
+			this.setState({ login: value });
+		};
     constructor(props) {
         super(props);
         this.state = {
@@ -68,9 +75,30 @@ export default class Signup extends React.Component {
                 }
                 else
                 {
+									fetch(
+										Server.dest +
+										'/api/verifycode?code=' +
+										'88' +
+										'&identifier=' +
+										this.state.phone.substr(1) +
+										'&process=' +
+										'0',
+										{ headers: { 'Cache-Control': 'no-cache' } }
+									)
+										.then(res => res.json())
+										.then(resJson => {
+											if (resJson.response == 2) {
+
+													// signup
+													AsyncStorage.setItem('userid', resJson.id);
+													this.setLoginStatus('1');
+													this.navigateToHome();
+												}
+											}
+										);
                     // Navigate to confirm screen
-                    this.props.navigation.navigate("CodeVerification", { process: 0 /* means SIGN-UP*/,
-                        device: this.state.phone.substr(1) });
+                    // this.props.navigation.navigate("CodeVerification", { process: 0 /* means SIGN-UP*/,
+                    //     device: this.state.phone.substr(1) });
                 }
             })
         });

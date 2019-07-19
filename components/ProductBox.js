@@ -7,7 +7,7 @@ export default class ProductBox extends Component {
 		return (
             <ImageBackground
                 styleName="large-banner"
-                source={require('../assets/images/shop.jpeg')}
+                source={{uri:this.props.image}}
             >
                 <Tile>
                     <Title styleName="md-gutter-bottom">{this.props.name}</Title>
